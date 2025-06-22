@@ -367,3 +367,35 @@ body {
     place-self: center;
     padding: 5%;
 }
+
+.resume {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 5%;
+}
+
+.resume h2{
+    line-height: 1;
+    padding-top: 5%;
+    place-self: center;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 4vw;
+}
+
+.resume p{
+    line-height: 1;
+    place-self: center;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 3vw;
+}
+
+.resume a{
+    line-height: 1;
+    place-self: center;
+    box-sizing: border-box;
+    font-size: 3vw;
+    color: white;
+}
